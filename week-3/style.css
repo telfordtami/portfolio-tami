@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-columns: 70vw 30vw;
+    height: 90vh;
+    width: 100%;
+}
+
+.header-container {
+    grid-column: 1/3;
+    grid-row: 1;
+    padding: 12px;
+}
+
+.logo-position {
+    float: left;
+
+}
+
+.header-flex {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.main-container {
+    grid-column: 1/2;
+    grid-row: 2;
+    background-image: url(assets/tech-moms-working.jpg);  
+    background-size: cover;
+}
+
+.sidebar-container {
+    grid-column: 2/3;
+    grid-row: 2;
+    padding: 10px;
+    background: #06E0E9;
+}
+
+.sidebar-accent {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #333;
+    padding: 30px 30px 10px 30px;
+}
+
+.sidebar-title {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 30px;
+    width: 400px;
+    border-bottom: 5px solid black;
+}
+
+.sidebar-tagline {
+    font-size: 16px;
+    line-height: 25px;
+    color: #333;
+    padding-left: 30px;
+    margin-top: 50px;
+}
+
+.btn-spacing {
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.sidebar-btn {
+    background-color: #C7647B;
+    color: #ffffff;
+    margin-top: 15px;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.sidebar-btn i {
+    color: #ffffff;
+  }
+
+.btn-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footer-container {
+    grid-column: 1/3;
+    grid-row: 3;
+    padding: 10px;
+    border-top: 60px solid #4E1A3D;
+
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+a:hover {
+    color: #C7647B;
+    }
+
+.footer-flex {
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.mt-10 {
+    margin-right: 10 px;
+}
+
+i {
+    color: #333;
+}
+
+i:hover {
+    color: #C7647B;
+}
