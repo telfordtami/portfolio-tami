@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 150px;
     /*background-attachment: fixed;*/
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
     border-top: 10px solid #21374d;
     /*Photo by erica steeves on Unsplash*/
     /*Photo by Dominik Sostmann on Unsplash*/
