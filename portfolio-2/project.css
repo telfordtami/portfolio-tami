@@ -56,6 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link {
     width: 70px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -90,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .homepage {
-    background-image: url(assets/computer2.jpg);
+    background-image: url(assets/red-flowers.jpg);
     padding: 100px;
     height: 150px;
     /*background-attachment: fixed;*/
@@ -98,6 +99,7 @@ h1, h2, h3, h4, h5, h6 {
     background-position: top;
     border-top: 10px solid #21374d;
     /*Photo by erica steeves on Unsplash*/
+    /*Photo by Dominik Sostmann on Unsplash*/
 }
 
 /*.top-heading {
