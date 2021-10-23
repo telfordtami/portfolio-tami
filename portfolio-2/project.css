@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .link-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
 }
 
 .nav-link {
@@ -78,14 +78,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .icon {
     font-size: 2em;
-}
-
-.icon-mr {
-    margin-right: 15px;
-}
-
-.icon-ml {
-    margin-left: 15px;
 }
 
 .homepage {
