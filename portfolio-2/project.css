@@ -10,17 +10,14 @@ h1, h2, h3, h4, h5, h6 {
 .header-wrapper {
    background-color: #ffffff;
    color:#3a638a;
-   height: 190px;
+   height: 500px;
    display: flex;
+   flex-direction: column;
    justify-content: space-between;
    align-items: center;
    padding: 60px 100px;
    }
 
-.left-column {
-    display: flex;
-    align-items: center;
-}
 
 .header-styles {
     font-family: 'Oswald', sans-serif;
@@ -32,14 +29,14 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 3em;
 }
 
-.center-column {
+/*.center-column {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 42px;
     width: 500px;
     text-align: center;
 }
-
+*/
 .logo {
     display: flex;
     justify-content: center;
