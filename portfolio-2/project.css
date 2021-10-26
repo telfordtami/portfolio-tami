@@ -139,3 +139,7 @@ center-column {
 .column :nth-child(3) {
     letter-spacing: 2px;
 }
+
+.p {
+    font-size: 20px;
+}
