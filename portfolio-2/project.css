@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
    flex-direction: column;
    justify-content: space-evenly;
    align-items: center;
-   padding: 100px 20px;
+   padding: 50px 20px;
 }
 
 .header-styles {
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 140px;
     font-size: 25px;
     text-align: center;
-    padding: 100px;
+    padding: 50px;
 }
 
 .link-wrapper a {
@@ -65,10 +65,6 @@ h1, h2, h3, h4, h5, h6 {
    display: flex;
    align-items: center;
     text-align: right;
-}
-
-.icon {
-    font-size: 2em;
 }
 
 .homepage {
