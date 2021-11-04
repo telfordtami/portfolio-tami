@@ -228,4 +228,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .about-page {
     height: 150px;
+    align-items: center;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    width: 600px;
+    justify-content: center;
 }
