@@ -23,10 +23,16 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2em;
 }
 
-.header-styles2 {
+.header-styles-2 {
     font-family: 'Oswald', sans-serif;
     font-size: 3em;
     padding: 20px;
+}
+
+.header-paragraph {
+    font-size: 20px;
+    width: 600px;
+    text-align: center;
 }
 
 .center-column {
@@ -140,6 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 .social-media-links {
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
+    text-decoration: none;
     display:flex;
     margin-left: auto;
     margin-right: auto;
@@ -191,12 +198,34 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 
-  .nav-link-2 {
+  .nav-link-2 a {
     width: 140px;
     font-size: 25px;
     align-items: center;
     padding: 25px;
     font-size: 20px;
     font-family: 'Oswald', sans-serif; 
+    color: #3a638a;
+    text-decoration: none;
+    transition: 0.5s;
 }
 
+.nav-link-2 a:hover {
+    color: #21374d;
+    letter-spacing: 2px;
+}
+
+.nav-link-3 {
+    width: 140px;
+    font-size: 25px;
+    align-items: center;
+    padding: 25px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif; 
+    color: #3a638a;
+    text-decoration: none;
+}
+
+.about-page {
+    height: 150px;
+}
