@@ -5,6 +5,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
+    color: #3a638a;
 }
 
 .header-wrapper {
@@ -145,16 +146,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .social-media-links {
     font-family: 'Oswald', sans-serif;
+    color: #3a638a;
     font-size: 50px;
     text-decoration: none;
-    display:flex;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     height: 500px;
     width: 1200px;
     position: absolute;
     z-index: 2;
-    margin: 300px 0px 150px 100px;
+    margin: 300px 0px 150px 0px;
+    justify-content: space-evenly;
 }
 
 .social-media-links a {
@@ -171,6 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .social-media-links-2 {
     font-family: 'Oswald', sans-serif;
+    color: #3a638a;
     font-size: 25px;
     display: flex;
     margin-left: auto;
@@ -179,7 +183,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 1200px;
     position: absolute;
     z-index: 2;
-    margin: 300px 0px 150px 100px;
+    margin: 250px 0px 150px 0px;
+    justify-content: space-evenly;
 }
 
 .tami-pic {
@@ -193,9 +198,13 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 2px 4px 7px #8a817c;
 }
 
-  .about-heading {
+  h1.about-heading {
     width: 400px;
     font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
   .nav-link-2 a {
@@ -228,12 +237,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .about-page {
     height: 150px;
-    align-items: center;
-    display: grid;
+    font-family: 'Oswald', sans-serif; 
+    color: #3a638a;
+    display: flex;
+    justify-content: center;
 }
 
 .about-paragraph {
     font-size: 20px;
     width: 600px;
-    display: grid;
 }
